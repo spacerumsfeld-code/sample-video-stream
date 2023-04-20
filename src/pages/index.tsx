@@ -18,7 +18,7 @@ const html = `
         <!--*****END OF Azure Media Player Scripts*****-->
 </head>
 <body>
-    <h1>Sample: Clear</h1>
+    <h1>Sample Azure Media Service Encoded/Streamed Video</h1>
     <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" tabindex="0"> </video>
     <script>
         var myOptions = {
