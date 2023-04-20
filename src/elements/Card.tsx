@@ -15,7 +15,11 @@ export function Card({
 }: CardProps): ReactElement {
   return (
     <div
-      className={clsx("overflow-hidden rounded-lg bg-white shadow", className)}
+      id="card"
+      className={clsx(
+        "overflow-hidden rounded-lg bg-white shadow p-12",
+        className
+      )}
     >
       <div
         className={clsx(
